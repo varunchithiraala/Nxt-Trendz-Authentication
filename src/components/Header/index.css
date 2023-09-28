@@ -1,0 +1,167 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-header {
+    flex-direction: row;
+  }
+}
+
+.nav-header-content {
+  width: 100%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-header-content {
+    width: 85%;
+    margin: auto;
+    flex-direction: row;
+    padding-right: 0;
+  }
+}
+
+.nav-bar-small-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-bar-small-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  height: 40px;
+  width: 130px;
+}
+
+@media screen and (min-width: 576px) {
+  .website-logo {
+    height: 50px;
+    width: 180px;
+  }
+}
+
+.nav-bar-mobile-button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-bar-mobile-button {
+    display: none;
+  }
+}
+
+.nav-bar-image {
+  width: 26px;
+}
+
+.nav-bar-large-container {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-bar-large-container {
+    width: 95%;
+    max-width: 1110px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav-menu-items {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-menu-items {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-grow: 1;
+  }
+}
+
+.nav-menu-item {
+  color: #475569;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.logout-desktop-button {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .logout-desktop-button {
+    color: #ffffff;
+    background-color: #0967d2;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+  }
+}
+
+.nav-menu-mobile-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-menu-mobile-container {
+    display: none;
+  }
+}
+
+.nav-menu-mobile-list {
+  list-style-type: none;
+  background-color: #e6f6ff;
+  height: 70px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-menu-mobile-item {
+  margin: 0;
+  cursor: pointer;
+}
